@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+body{
+    background-color: blueviolet;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.aM{
+    background-color: rgb(255,223,0);
+    font-size: large;
+    text-align: center;
+}
+
+.Am{
+    background-color:aquamarine;
+    font-size: xx-large;
+}
